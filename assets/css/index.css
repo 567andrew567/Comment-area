@@ -1,8 +1,17 @@
-*,body{
+body{
+	margin-top: 5px;
 	margin-left: 5px;
 	margin-right: 5px;
 }
-
+*{
+	font-family: 微軟正黑體;
+}
+img{
+	margin: 3px;
+}
+.web_icon{
+	border: 1px solid black;
+}
 .banner{
 	border: 1px solid black;
 	display: inline-block;
@@ -16,6 +25,7 @@
 	height: 30px;
 	margin: 10px;
 	background-color: #0095FF;
+	cursor: pointer;
 
 	//文字設定
 	font-size: 15px;
@@ -29,22 +39,35 @@
 	border: 1px solid black;
 	display: inline-block;
 	width: 100%;
+	height: 50px;
+	margin-top: 5px;
 }
 .question{
 	border: 1px solid black;
 	display: inline-block;
 	width: 100%;
+	height: 100px;
+	margin-top: 5px;
 }
 #comment_area{
 	border: 1px solid black;
 	display: inline-block;
 	width: 100%;
+	margin-top: 5px;
+	/*overflow: hidden;*/
+}
+.comment_icon{
+	border: 1px solid black;
 }
 .comment{
+	width: 100%;
 	border: 1px solid black;
 	display: inline-block;
-	width: auto;
-	margin-top:10px;
-	margin-right: 5px;
-	margin-left: 5px;
+	/*margin: 10px 5px;*/
+}
+#user_post_area{
+	border: 1px solid black;
+	display: inline-block;
+	width: 100%;
+	height: 100px;
 }
