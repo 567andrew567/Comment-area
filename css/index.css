@@ -1,0 +1,50 @@
+*,body{
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+.banner{
+	border: 1px solid black;
+	display: inline-block;
+	width: 100%;
+}
+.login{
+	border: 1px solid none;
+	border-radius: 5px;
+	float: right;
+	width: 60px;
+	height: 30px;
+	margin: 10px;
+	background-color: #0095FF;
+
+	//文字設定
+	font-size: 15px;
+	color: white;
+	text-decoration: none;
+	text-align: center;
+	line-height: 30px;
+}
+
+.question_title{
+	border: 1px solid black;
+	display: inline-block;
+	width: 100%;
+}
+.question{
+	border: 1px solid black;
+	display: inline-block;
+	width: 100%;
+}
+#comment_area{
+	border: 1px solid black;
+	display: inline-block;
+	width: 100%;
+}
+.comment{
+	border: 1px solid black;
+	display: inline-block;
+	width: auto;
+	margin-top:10px;
+	margin-right: 5px;
+	margin-left: 5px;
+}
