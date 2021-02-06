@@ -9,14 +9,22 @@ body{
 img{
 	margin: 3px;
 }
-.web_icon{
+.question_title,.question,#comment_area,#user_post_area{
+	max-width: 1000px;
 	border: 1px solid black;
+	margin-top: 5px;
+	margin: 5px auto;
 }
 .banner{
+	max-width: none;
 	border: 1px solid black;
 	display: inline-block;
 	width: 100%;
 }
+.web_icon{
+	border: 1px solid black;
+}
+
 .login{
 	border: 1px solid none;
 	border-radius: 5px;
@@ -36,38 +44,35 @@ img{
 }
 
 .question_title{
-	border: 1px solid black;
-	display: inline-block;
-	width: 100%;
 	height: 50px;
-	margin-top: 5px;
+	line-height: 50px;
+	font-size: 20px;
 }
 .question{
-	border: 1px solid black;
-	display: inline-block;
 	width: 100%;
 	height: 100px;
-	margin-top: 5px;
 }
 #comment_area{
-	border: 1px solid black;
-	display: inline-block;
 	width: 100%;
-	margin-top: 5px;
-	/*overflow: hidden;*/
+	height: 200px;
+	position: relative;
+	overflow: hidden;
 }
 .comment_icon{
 	border: 1px solid black;
+	position: absolute;
+	height: 50px;
+	width: 50px;
 }
 .comment{
-	width: 100%;
+	max-width: 600px;
+	height: 100px;
 	border: 1px solid black;
-	display: inline-block;
-	/*margin: 10px 5px;*/
+	position: absolute;
+	left: 60px;
+	top: 3px;
 }
 #user_post_area{
-	border: 1px solid black;
-	display: inline-block;
 	width: 100%;
 	height: 100px;
 }
