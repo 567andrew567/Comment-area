@@ -24,11 +24,12 @@ img{
 
 
 .question_title,.question,#comment_area,#user_post_area{
-	max-width: 1000px;
+	width: 1000px;
 	border: 1px solid black;
 	margin-top: 5px;
 	margin: 5px auto;
 	word-wrap: break-word;
+	overflow: hidden;
 }
 .banner{
 	max-width: none;
@@ -62,7 +63,6 @@ img{
 }
 
 .question_title{
-	height: 50px;
 	line-height: 50px;
 	font-size: 20px;
 }
@@ -72,9 +72,7 @@ img{
 }
 #comment_area{
 	width: 100%;
-	height: 200px;
 	position: relative;
-	overflow: hidden;
 }
 .comment_icon{
 	border: 1px solid black;
@@ -98,6 +96,7 @@ img{
 #user_post_area{
 	width: 100%;
 	height: 100px;
+	display: inline-block;
 }
 .user_icon{
 	width: 50px;
