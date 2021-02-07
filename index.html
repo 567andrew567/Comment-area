@@ -9,27 +9,27 @@
 	<script src="assets/js/index.js"></script>
 	<script src="//code.jquery.com/jquery-2.1.4.min.js"></script>
 
+
 </head>
 <body>
 	<div class="banner">
 		<img src="" alt="icon" class="web_icon">
-		<div href="" class="login" onclick="login()">登入</div>
+		<div href="" class="login" data-onsuccess="onSignIn" >登入</div>
 	</div>
 	<div class="leftbox">
 		<p>題目欄</p>
 	</div>
 	<div class="questionbox">
-		<div class="question_title">
+		<div id="question_title">
 			<p>我是題目標題</p>
 		</div>
-		<div class="question">
+		<div id="question">
 			<p>我是題目</p>
 		</div>
+		<div id="answer">
+			<p>我是解答</p>
+		</div>
 		<div id="comment_area">
-			<div class="comment_icon"><img src="" alt="icon" ></div>
-			<div class="comment"><p>目前沒有討論</p></div>
-			<div class="comment_icon"><img src="" alt="icon" ></div>
-			<div class="comment"><p>目前沒有討論</p></div>
 			<div class="comment_icon"><img src="" alt="icon" ></div>
 			<div class="comment"><p>目前沒有討論</p></div>
 		</div>
