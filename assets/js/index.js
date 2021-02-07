@@ -14,9 +14,12 @@ $(function get_question(){
 			question_code: 1
 		},
 		type: "POST",
-		datatype: "html",
+		dataType: 'JSON',
 		success: function(result){
-			alert(result);
+			// alert(result[0].answer);
+			$("#question_title").html("<p>"+result[0].question_title+"</p>");
+			$("#question").html("<p>"+result[0].question+"</p>");
+			$("#answer").html("<p>"+result[0].answer+"</p>");
 		},
 		error: function(){
 			alert("get_question fail");
